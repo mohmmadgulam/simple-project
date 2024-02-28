@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- bootsterap -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+  <!-- swiper js -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <!-- Navbar -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow py-3 sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#" style="font-weight: 900;">
+        Foodpika .
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#heroSlider">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#reservation">Reservation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+
+        </ul>
+        <a href="" class="btn btn-brand">Order Online</a>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- hero slider -->
+
+
+  <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item text-center bg-cover  vh-100 active slide-1">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h6 class="text-white">WLCOME TO FOODPIKA</h6>
+              <h1 class="display-1 fw-bold text-white">Char-grilled and flavor-filled</h1>
+              <a href="" class="btn btn-brand">Reservation</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item text-center bg-cover vh-100 slide-2">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h6 class="text-white">WLCOME TO FOODPIKA</h6>
+              <h1 class="display-1 fw-bold text-white">Fresh & Tasty Food</h1>
+              <a href="" class="btn btn-brand">Reservation</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <!-- About -->
+
+
+
+  <section id="about">
+    <div class="container">
+      <div class="row gy-4 align-items-center">
+        <div class="col-lg-5">
+          <img src="./assets/images/about_new2.jpg" alt="">
+        </div>
+        <div class="col-lg-5">
+          <h1>About us</h1>
+          <div class="divider my-4"></div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae harum placeat officiis magni? Quisquam,
+            quibusdam natus.</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat ipsum odit minus aspernatur accusamus
+            tempore, vero sapiente nostrum facere! Accusantium, reprehenderit dolores.</p>
+          <a href="" class="btn btn-brand">Explore Menu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Menu -->
+
+
+  <section id="menu" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro-text">
+          <h1>Explore Our Menu</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolorem consequatur! Sed nemo officiis
+            atque quibusdam.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
+
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+            type="button" role="tab" aria-controls="pills-all" aria-selected="true">All Items</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-breakfast-tab" data-bs-toggle="pill" data-bs-target="#pills-breakfast"
+            type="button" role="tab" aria-controls="pills-breakfast" aria-selected="true">Breakfast</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-launch-tab" data-bs-toggle="pill" data-bs-target="#pills-launch"
+            type="button" role="tab" aria-controls="pills-launch" aria-selected="true">Launch</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner"
+            type="button" role="tab" aria-controls="pills-dinner" aria-selected="true">Dinner</button>
+        </li>
+
+      </ul>
+
+      <div class="tab-content" id="pills-tabContent">
+
+        <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+
+          <div class="row gy-4">
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_1.jpeg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_2i.jpg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_3i.jpg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_4i.jpg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_6.jpg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_7.jpeg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_8.jpeg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_2.jpeg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="tab-pane fade show active" id="pills-breakfast" role="tabpanel"
+          aria-labelledby="pills-breakfast-tab">
+
+
+          <div class="row gy-4">
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_3i.jpg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_4i.jpg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_8.jpeg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_2.jpeg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="tab-pane fade show active" id="pills-launch" role="tabpanel" aria-labelledby="pills-launch-tab">
+          <div class="row gy-5">
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_3i.jpg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_4i.jpg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_6.jpg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_7.jpeg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="tab-pane fade show active" id="pills-dinner" role="tabpanel" aria-labelledby="pills-dinner-tab">
+          <div class="row gy-5">
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_7.jpeg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="menu-item bg-white shadow-on-hover">
+                <img src="./assets/images/item_3i.jpg" alt="" style="height: 180px;">
+                <div class="menu-item-content p-4">
+                  <div>
+                    <span>Rated(5.4)</span>
+                    <span class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </span>
+                  </div>
+                  <h5 class="mt-1 mb-2"><a href="#">Fudgy Chewy Brownies</a></h5>
+                  <p class="small">Baked salman to a fresh saled made chickpeas, arugula, herbs and olives</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Features -->
+
+  <section id="features" class="bg-cover">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro-text">
+          <h1 class="text-white">Why to choose us?</h1>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolorem consequatur! Sed
+            nemo officiis
+            atque quibusdam.</p>
+        </div>
+      </div>
+      <div class="row gy-4">
+        <div class="col-lg-3 col-sm-6">
+          <div class="feature p-4 text-center">
+            <div class="feature-icon">
+              <i class="ri-wifi-fill"></i>
+            </div>
+            <h4 class="text-white mt-4 mb-2">Free Wifi</h4>
+            <p class="text-white">lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, similique</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="feature p-4 text-center">
+            <div class="feature-icon">
+              <i class="ri-timer-2-fill"></i>
+            </div>
+            <h4 class="text-white mt-4 mb-2">Fast Delivery</h4>
+            <p class="text-white">lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, similique</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="feature p-4 text-center">
+            <div class="feature-icon">
+              <i class="ri-user-5-fill"></i>
+            </div>
+            <h4 class="text-white mt-4 mb-2">Friendly Staff</h4>
+            <p class="text-white">lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, similique</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="feature p-4 text-center">
+            <div class="feature-icon">
+              <i class="ri-shield-star-fill"></i>
+            </div>
+            <h4 class="text-white mt-4 mb-2">Highly Rated</h4>
+            <p class="text-white">lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, similique</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Team -->
+
+  <section id="team">
+    <div class="row">
+      <div class="col-12 intro-text">
+        <h1 class="text-dark">Our Team</h1>
+        <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolorem consequatur! Sed
+          nemo officiis
+          atque quibusdam.</p>
+      </div>
+    </div><br><br><br><br><br><br><br><br><br><br>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="container-fluid">
+            <div class="card">
+              <div class="content">
+                <div class="imgBx"><img src="https://i.pinimg.com/736x/5f/9c/91/5f9c91fc2df3edb394de5aa2dd51e408.jpg"
+                    alt=""></div>
+                <div class="contentBx">
+                  <h3>Lilly Pathekar <br><span>Creative Cook</span></h3>
+                </div>
+              </div>
+              <ul class="sci">
+                <li style="--i:1">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                      class="bi bi-facebook" viewBox="0 0 16 16">
+                      <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                    </svg>
+                  </a>
+                </li>
+                <li style="--i:2">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                      class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path
+                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                    </svg>
+                  </a>
+                </li>
+                <li style="--i:3">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                      class="bi bi-instagram" viewBox="0 0 16 16">
+                      <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-slide">
+          <div class="container-fluid">
+            <div class="card">
+              <div class="content">
+                <div class="imgBx"><img
+                    src="https://storage.googleapis.com/pai-images/10b3771ff33d40d9877b3b6ce1e275c1.jpeg" alt=""></div>
+                <div class="contentBx">
+                  <h3>May Choper <br><span>Creative & Delicious Cooking</span></h3>
+                </div>
+              </div>
+              <ul class="sci">
+                <li style="--i:1">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                      class="bi bi-facebook" viewBox="0 0 16 16">
+                      <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                    </svg>
+                  </a>
+                </li>
+                <li style="--i:2">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                      class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path
+                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                    </svg>
+                  </a>
+                </li>
+                <li style="--i:3">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                      class="bi bi-instagram" viewBox="0 0 16 16">
+                      <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container-fluid">
+            <div class="card">
+              <div class="content">
+                <div class="imgBx"><img
+                    src="https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/d89a3abf-93e0-4b12-b086-0b25d12d3d00/width=450/324820.jpeg"
+                    alt=""></div>
+                <div class="contentBx">
+                  <h3>Paddy Lalankar <br><span>Best Cook</span></h3>
+                </div>
+              </div>
+              <ul class="sci">
+                <li style="--i:1">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                      class="bi bi-facebook" viewBox="0 0 16 16">
+                      <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                    </svg>
+                  </a>
+                </li>
+                <li style="--i:2">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                      class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path
+                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                    </svg>
+                  </a>
+                </li>
+                <li style="--i:3">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                      class="bi bi-instagram" viewBox="0 0 16 16">
+                      <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container-fluid">
+            <div class="card">
+              <div class="content">
+                <div class="imgBx"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnGrL4OdvhyiW9iHzyAbbjv5PrKi-AYnMEe4sl2cTXlX8tFbRYt_bIb7ZNTSrNEMdLvtU&usqp=CAU"
+                    alt=""></div>
+                <div class="contentBx">
+                  <h3>Swati Parekh <br><span>Creative Cook</span></h3>
+                </div>
+              </div>
+              <ul class="sci">
+                <li style="--i:1">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                      class="bi bi-facebook" viewBox="0 0 16 16">
+                      <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                    </svg>
+                  </a>
+                </li>
+                <li style="--i:2">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                      class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path
+                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                    </svg>
+                  </a>
+                </li>
+                <li style="--i:3">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                      class="bi bi-instagram" viewBox="0 0 16 16">
+                      <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="container-fluid">
+            <div class="card">
+              <div class="content">
+                <div class="imgBx"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKlYPujTG4kNt0cyDRnukFiKJPHHUqeOTFpA&usqp=CAU"
+                    alt=""></div>
+                <div class="contentBx">
+                  <h3>Albert Brooks <br><span>best & Old cook</span></h3>
+                </div>
+              </div>
+              <ul class="sci">
+                <li style="--i:1">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                      class="bi bi-facebook" viewBox="0 0 16 16">
+                      <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                    </svg>
+                  </a>
+                </li>
+                <li style="--i:2">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                      class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path
+                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                    </svg>
+                  </a>
+                </li>
+                <li style="--i:3">
+                  <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                      class="bi bi-instagram" viewBox="0 0 16 16">
+                      <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section><br><br><br>
+
+
+  <!-- reviews -->
+
+  <section id="reviews" class="bg-cover">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro-text">
+          <h1 class="text-dark">Our Client Saying</h1>
+          <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolorem consequatur! Sed
+            nemo officiis
+            atque quibusdam.</p>
+        </div>
+      </div>
+
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="reviewSlider" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="reviewSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="review bg-white p-5 text-center">
+                  <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                  <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quis suscipit veritatis
+                    dolores nisi omnis excepturi possimus, iste, eum, dicta sunt provident inventore nobis cum
+                    perferendis officia rem. Magnam, quod!</p>
+                  <div class="person mt-4">
+                    <img src="./assets/images/avatar_01.jpeg" alt="">
+                    <h4 class="mb-0 mt-2">Jon Doe</h4>
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="review bg-white p-5 text-center">
+                  <div class="quote-icon"><i class="ri-double-quotes-l"></i></div>
+                  <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quis suscipit veritatis
+                    dolores nisi omnis excepturi possimus, iste, eum, dicta sunt provident inventore nobis cum
+                    perferendis officia rem. Magnam, quod!</p>
+                  <div class="person mt-4">
+                    <img src="./assets/images/avatar_02.jpeg" alt="">
+                    <h4 class="mb-0 mt-2">Jon Doe</h4>
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+    </div>
+  </section>
+
+
+
+
+  <!-- reservation -->
+
+
+  <section id="reservation">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro-text">
+          <h1>Book Your Table</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eius quaerat distinctio amet soluta
+            doloremque.</p>
+
+        </div>
+      </div>
+      <form action="" class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="row g-3">
+            <div class="form-group col-md-6">
+              <input type="text" class="form-control" placeholder="Full name">
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" placeholder="Email address">
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" placeholder="Date">
+            </div>
+            <div class="form-group col-md-6">
+              <input type="email" class="form-control" placeholder="Time">
+            </div>
+            <div class="form-group col-md-12">
+              <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Enter messege"></textarea>
+            </div>
+            <div class="form-group text-center col-md-12">
+              <a href="#" class="btn btn-brand">Send messege</a>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+
+  <!-- Isnsta Post -->
+
+
+  <div class="row g-0">
+    <div class="col-lg-3 col-sm-6">
+      <div class="insta-posts">
+        <img src="./assets/images/insta_post01.jpeg" alt="">
+        <a href="#" class="insta-btn">
+          <i class="ri-instagram-fill"></i>
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <div class="insta-posts">
+        <img src="./assets/images/insta_post02.jpeg" alt="">
+        <a href="#" class="insta-btn">
+          <i class="ri-instagram-fill"></i>
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <div class="insta-posts">
+        <img src="./assets/images/insta_post03.jpeg" alt="">
+        <a href="#" class="insta-btn">
+          <i class="ri-instagram-fill"></i>
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-sm-6">
+      <div class="insta-posts">
+        <img src="./assets/images/insta_post04.jpeg" alt="">
+        <a href="#" class="insta-btn">
+          <i class="ri-instagram-fill"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- blog post -->
+
+
+  <section id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 intro-text">
+          <h1>Blog Posts</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eius quaerat distinctio amet soluta
+            doloremque.</p>
+
+        </div>
+      </div>
+      <div class="row gy-4">
+        <div class="col-sm-6">
+          <div class="blog-post d-flex shadow-on-hover">
+            <img src="./assets/images/item_8.jpeg" alt="">
+            <div class="blog-post-content p-4">
+              <p>Posted: 25 Dec, 2018</p>
+              <h4><a href="#">How to make delicous food </a></h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, possimus!</p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="blog-post d-flex shadow-on-hover">
+            <img src="./assets/images/item_5.jpeg" alt="">
+            <div class="blog-post-content p-4">
+              <p>Posted: 25 Dec, 2018</p>
+              <h4><a href="#">How to make delicous food </a></h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, possimus!</p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="blog-post d-flex shadow-on-hover">
+            <img src="./assets/images/item_7.jpeg" alt="">
+            <div class="blog-post-content p-4">
+              <p>Posted: 25 Dec, 2018</p>
+              <h4><a href="#">How to make delicous food </a></h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, possimus!</p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="blog-post d-flex shadow-on-hover">
+            <img src="./assets/images/item_3.jpeg" alt="">
+            <div class="blog-post-content p-4">
+              <p>Posted: 25 Dec, 2018</p>
+              <h4><a href="#">How to make delicous food </a></h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, possimus!</p>
+              <a href="#">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- footer -->
+
+
+  <footer class="bg-cover">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-4">
+            <a class="footer-brand" href="#"
+              style="font-weight: 900; font-size: 30px; color: #fff; font-family: cursive;">
+              Foodpika .
+            </a>
+            <br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi accusamus sunt laboriosam velit, nihil
+              recusandae!</p>
+            <div class="social-links">
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+              <a href="#"><i class="ri-youtube-fill"></i></a>
+              <a href="#"><i class="ri-google-play-fill"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 ms-auto">
+            <h6 class="text-white mb-4">CONTACT</h6>
+            <p class="mb-1">P:(03) 9283 4726</p>
+            <p class="mb-1">E:enquiries@mill.co</p>
+            <p class="mb-0">A:14 Paramore rStreet Mornington Peninsula Victoria 3552</p>
+          </div>
+          <div class="col-lg-3">
+            <h6 class="text-white mb-4">OPENING HOURS</h6>
+            <p class="mb-1">Monday-Friday : 08:00 - 22:00</p>
+            <p class="mb-1">Saturday-Sunday : 08:00 - 22:00</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row gy-3 justify-content-between">
+          <div class="col-auto">
+            <p class="mb-0">Copyrights all rights reserved</p>
+          </div>
+          <div class="col-auto">
+            <p class="mb-0">Designed by <a href="#">Savan</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- <script src="costum.js"></script> -->
+
+
+  <!-- swiper cdn -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- costum js  -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'cube',
+      grabCursor: true,
+      cubeEffect: {
+        shadow: true,
+        slideShadows: true,
+        shadowOffset: 20,
+        shadowScale: 0.94,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+
+</body>
+
+</html>
